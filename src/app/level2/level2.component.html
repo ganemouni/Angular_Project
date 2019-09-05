@@ -1,0 +1,27 @@
+
+
+<div class="padtop">
+<img src="../../assets/img1.png" class="imgcss">
+<div class="container">
+                
+
+     <div class="row">
+        
+           
+        <div class="col-sm-12" >
+                <h5 class="blucolor">Contribution activity </h5>
+            <div class="card" *ngFor="let y of some"  >
+                         <div class="card-body">
+                         <h3 class="blucolor">{{y.name}}</h3> 
+                         <p>Updated at {{y.updated_at}}</p>
+                         <button class="lfloat" (click)="addtofav(y)">
+                           Add to Favourite</button>
+                            
+                        <hr> </div>
+            </div>
+        </div>
+      </div>
+</div>
+</div>
+
+<p class="cenalig">{{x}}</p>

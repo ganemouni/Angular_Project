@@ -1,0 +1,16 @@
+<div class="row">
+        
+           
+        <div class="col-sm-12" >
+               
+            <div class="card" *ngFor="let y of lev3"  >
+                         <div class="card-body">
+                         <h3 style="color:#0366d6;">{{y.name}}</h3> 
+                         <p>Updated at {{y.updated_at}}</p>
+                         <button style="float:right;" (click)="removefav(y.id)">
+                           remove from Favourite</button> 
+                           
+                        <hr> </div>
+            </div>
+        </div>
+      </div>
